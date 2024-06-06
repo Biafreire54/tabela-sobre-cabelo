@@ -1,0 +1,26 @@
+:root {
+    --bg-color: #212529;
+    --border-color: #666;
+    --font-color: #f1f5f9;
+}
+
+body {
+    padding: 25px;
+    background-color: var(--font-color);
+    color: var(--bg-color);
+    font-size: 25px;
+}
+
+td, .dark-th{
+    color: var(--bg-color);
+}
+
+.dark-mode {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+.light-mode {
+    background-color: var(--font-color);
+    color: var(--bg-color);
+}
